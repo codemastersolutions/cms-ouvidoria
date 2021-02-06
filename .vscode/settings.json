@@ -15,5 +15,8 @@
         "titleBar.inactiveBackground": "#1857a499",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.remoteColor": "#1857a4"
+    "peacock.remoteColor": "#1857a4",
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "prettier.vueIndentScriptAndStyle": true
 }

@@ -35,6 +35,7 @@
 		"ritwickdey.liveserver",
 		"ms-vscode.vscode-typescript-tslint-plugin",
 		"esbenp.prettier-vscode",
+		"orta.vscode-jest"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
