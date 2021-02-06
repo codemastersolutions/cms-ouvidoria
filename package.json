@@ -1,0 +1,10 @@
+{
+  "name": "cms-ouvidoria",
+  "version": "0.1.0",
+  "description": "Sistema para Controle de Ouvidoria",
+  "main": "index.ts",
+  "repository": "https://github.com/codemastersolutions/cms-ouvidoria",
+  "author": "Gilson Gabriel <gilson@codemastersolucoes.com>",
+  "license": "MIT",
+  "private": false
+}
