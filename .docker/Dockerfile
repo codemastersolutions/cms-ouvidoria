@@ -1,11 +1,13 @@
 FROM node:14.15.4-alpine3.12
 
 RUN apk update && \
-    apk add --no-cache yarn git nano && \
+    apk add --no-cache yarn git nano && \    
     git config --global credential.helper 'cache --timeout=7200' && \
     git config --global user.email "gilson@codemastersolucoes.com" && \
     git config --global user.name "Gilson Gabriel" && \
     git config --global color.ui true
+
+RUN yarn global add express-generator
 
 RUN wget https://github.com/deluan/zsh-in-docker/releases/download/v1.1.1/zsh-in-docker.sh
 
